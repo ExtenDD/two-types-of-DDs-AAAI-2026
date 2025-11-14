@@ -191,7 +191,7 @@ The data used in the paper has been generated using the script „data_generatio
 - fill the arguments of the function `random_ALCi_concept_str`, in order to determine what type of concepts should be contained in the data (note that the argument `no_atoms` is set before executing the function),
 - Name the datafile(s) that appear in the output. Current script produces two files – an Excel file and a csv. file
 
-For our paper we generated 7 datasets: 3 datasets with only global descriptions, 3 with only local descriptions, and one dataset without descriptions. For _k_ being the number of binary operators in a concept, the first three datasets contain 0.1\* _k_, 0.3\* _k_, and 0.5\* _k_ global descriptions, respectively, whereas the next three datasets contain 0.1\* _k_, 0.3\* _k_, and 0.5\* _k_ local descriptions. Below, those six datasets will be referred to as GD_0.1, GD_0.3, GD_0.5, LD_0.1, LD_0.3, LD_0.5. The dataset without descriptions will be referred to as NoDesc. Note that the datasets in the supplementary material are named using the same names.
+For our paper we generated 7 datasets: 3 datasets with only global descriptions, 3 with only local descriptions, and one dataset without descriptions. For _k_ being the number of binary operators in a concept, the first three datasets contain 0.1\* _k_, 0.3\* _k_, and 0.5\* _k_ global descriptions, respectively, whereas the next three datasets contain 0.1\* _k_, 0.3\* _k_, and 0.5\* _k_ local descriptions. Below, those six datasets will be referred to as GD_0.1, GD_0.3, GD_0.5, LD_0.1, LD_0.3, LD_0.5. The dataset without descriptions will be referred to as NoDesc. Note that the datasets, which are also included in this repository, are named using the same names.
 
 For each of the 7 datasets, the following parameters were constant:
 
@@ -242,7 +242,7 @@ The variables in the dataset have the following meaning:
 
 ## 5. Instructions for reproducing the results presented in the paper
 
-The data analysis and results, as presented in our paper, were prepared using the programming language R. The code used to generate the results and the chart (using the data visualization package „ggplot2”) is also included in the supplementary material, named „generation_of_results.R”. To generate the results, one should:
+The data analysis and results, as presented in our paper, were prepared using the programming language R. The code used to generate the results and the chart, using the data visualization package „ggplot2”, is also available („generation_of_results.R”). To generate the results, one should:
 
 - Generate the data using the appropriate random.seeds and other parameters, using the Python scripts described above
 - Run the R script, which reads the data, transforms it, and creates the table and chart
